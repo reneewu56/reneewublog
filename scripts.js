@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const posts = [
-        { title: "7月结算", url: "posts/Julysummary.html", category: "个人成长" },
-        { title: "Post 2", url: "posts/post2.html", category: "Lifestyle" },
-        { title: "Post 3", url: "posts/post3.html", category: "Tech" },
-        { title: "Post 4", url: "posts/post4.html", category: "Travel" }
+        { title: "7月结算", url: "post/julysummary.html", category: "个人成长" },
+        { title: "Post 2", url: "post/post2.html", category: "Lifestyle" },
+        { title: "Post 3", url: "post/post3.html", category: "Tech" },
+        { title: "Post 4", url: "post/post4.html", category: "Travel" }
     ];
 
     const categories = [...new Set(posts.map(post => post.category))];
