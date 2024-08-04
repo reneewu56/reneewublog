@@ -88,11 +88,13 @@ main {
 }
 
 article {
-    width: 66.66%; /* 三分之二的宽度 */
+    max-width: 800px; /* 限制最大宽度 */
+    width: 100%;
     background-color: #fff;
-    padding: 20px;
+    padding: 20px 40px; /* 增加左右填充 */
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* 包括填充在内的宽度 */
 }
 
 h2 {
