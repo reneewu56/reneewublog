@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const posts = [
         { title: "7月结算", url: "post/julysummary.html", category: "个人成长" },
-        { title: "Post 2", url: "post/post2.html", category: "Lifestyle" },
+        { title: "Privacy policy", url: "post/privacy_policy.html", category: "Lifestyle" },
         { title: "Post 3", url: "post/post3.html", category: "Tech" },
         { title: "Post 4", url: "post/post4.html", category: "Travel" }
     ];
